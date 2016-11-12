@@ -1,0 +1,6 @@
+<resources>
+    <!--
+    在安卓4.0，app widget会自动在小部件框架(RemoteView)和应用程序组件(RemoteView的子组件)的包围盒之间进行填充，以提供更好的与用户的主屏幕上的其他窗口部件和图标对齐
+    -->
+    <dimen name="widget_padding">0dp</dimen>
+</resources>

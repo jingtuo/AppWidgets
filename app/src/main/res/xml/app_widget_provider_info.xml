@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="10000"
+    android:initialLayout="@layout/example_app_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen">
+    <!-- To make your app widget portable across devices, your app widget's minimum size should never be larger than 4 x 4 cells. -->
+    <!--
+    The updatePeriodMillis attribute defines how often the App Widget framework should request an update from the AppWidgetProvider by calling the onUpdate() callback method.
+    The actual update is not guaranteed to occur exactly on time with this value and we suggest updating as infrequently as possible—perhaps no more than once an hour to conserve the battery.
+    You might also allow the user to adjust the frequency in a configuration—some people might want a stock ticker to update every 15 minutes, or maybe only four times a day.
+     理解：updatePeriodMillis 建议更新周期不能大频繁,但是也不能为了省电将周期设置超过1个小时
+     -->
+
+</appwidget-provider>
